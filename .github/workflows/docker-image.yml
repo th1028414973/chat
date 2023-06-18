@@ -2,9 +2,9 @@ name: Docker Image CI
 
 on:
   push:
-    branches: [ main2 ] #[main] 分支对应上分 in 后面的 才能触发
+    branches: [ master ] #[main] 分支对应上分 in 后面的 才能触发
   pull_request:
-    branches: [ main2 ] #[main] 分支对应上分 in 后面的 才能触发
+    branches: [ master ] #[main] 分支对应上分 in 后面的 才能触发
 
 jobs:
 
